@@ -42,3 +42,19 @@ main {
     border: none; 
     font-size: 24px;
 }
+
+.chess tr td:first-child {
+    text-align: right;
+}
+
+.chess tr td:last-child {
+    text-align: left;
+}
+
+.chess tr:first-child td {
+    vertical-align: bottom;
+}
+
+.chess tr:last-child td {
+    vertical-align: top;
+}
